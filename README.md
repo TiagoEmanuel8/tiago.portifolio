@@ -1,3 +1,3 @@
-https://tiagoemanuel8.github.io/tiagoportifolio/
+https://tiagoemanuel8.github.io/tiago.portifolio/
 
 My personal Website
