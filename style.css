@@ -1,0 +1,21 @@
+body {
+    background-color: 
+    #343a40;
+    color: azure;
+}
+
+#nome {
+    font-family: Georgia, serif;
+}
+
+#descricao{
+    font-family: American Typewriter, serif;
+}
+
+.imagem{
+    border-radius: 50%;
+}
+
+.lista {
+    color: azure;
+}
