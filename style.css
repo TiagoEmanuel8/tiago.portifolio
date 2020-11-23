@@ -4,18 +4,57 @@ body {
     color: azure;
 }
 
-#nome {
-    font-family: Georgia, serif;
+.about-me {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-#descricao{
-    font-family: American Typewriter, serif;
+.about-me p {
+    text-align: center;
+    width: 70%
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    width: 80%;
+}
+
+/* #descricao {
+    font-family: serif;
+} */
+
+.general-information {
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 .imagem{
     border-radius: 50%;
 }
 
+.information-title{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .lista {
     color: azure;
+}
+
+#nome {
+    font-family: Georgia, serif;
+}
+
+.skils {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#habilidades {
+    display: flex; 
+    justify-content: space-evenly;
 }

@@ -7,56 +7,46 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <!-- Meu nome-->
-    <h2 id="nome">Tiago Emanuel do Nascimento</h2>  
-    
-    <!--Criação de um índice interno-->
-    <p><strong>Índice</strong></p>
-    <ol class="lista">
-        <li><a class="lista" href="#cidade">Minha cidade atual</a></li>
-        <li><a class="lista" href="#eu">Um pouco sobre mim</a></li>
-        <li><a class="lista" href="#habilidades">Um das minhas habilidades</a></li>
-        <li><a class="lista" href="#blogs">Blogs que acompanho</a></li>
-        <li><a class="lista" href="#contato">Contato</a></li>
-    </ol>
-    <br>
-    <!-- Minha foto atual contendo a sua descrição-->
-    <img class="imagem" src="images/foto.jpg" alt="Homem sorrindo e de camisa azul" width="300px">
-
-    <!-- Uma breve descrição -->
-
-    <p id="cidade"><em>Recife/Pernambuco/Brasil</em></p>
-
-    <h4 id="eu">Um pouco sobre mim</h4>
-    <p id="descricao">Nascido e criado em Manaus, atualmente moro em Recife/PE <br> 
-        Sempre fui fascinado e ao mesmo tempo curioso em como o mundo da tecnologia impacta positivamente 
-        a nossa vida.<br>
-        Estou estudando desenvolvimento web na trybe, onde estou além das habilidades técnicas
-        estou crescendo enquanto pessoa</p>
-
-    <!-- Lista de habilidades -->
-    
-    <h4 id="habilidades">Um pouco das minhas habilidades</h4>
-    <ol>
-        <li><u>Foco</u></li>
-        <li>Empatia</li>
-        <li>Organização</li>
-        <li>Trabalho em grupo</li>
-        <li>Resiliência</li>
-        
-    </ol>
-
-    <!--Um link externo para algum blog de que você goste, que abra em uma nova aba;-->
-    <h4 id="blogs">Blogs que acompanho</h4>
-    <ul>
-        <li><a class="lista" href="https://blog.betrybe.com/" target="_blank">Trybe</a></li>
-        <li><a class="lista" href="https://www.codigofonte.com.br/tag/blog" target="_blank">Código Fonte TV</a></li>
-        <li><a class="lista" href="https://diolinux.com.br/" target="_blank">Dio Linux</a></li>
-        <li><a class="lista" href="https://www.mobills.com.br/blog/" target="_blank">Mobills</a></li>
-    </ul>
-
+    <header class="general-information">
+        <h2 id="nome">Tiago Emanuel do Nascimento</h2>  
+        <p id="cidade"><em>Estudante desenvolvimento FullStack | Trybe</em></p>
+        <p id="cidade"><em>Recife/Pernambuco/Brasil</em></p>
+    </header>
+    <section>
+        <div class="content">
+            <img class="imagem" src="images/foto.jpg" alt="Homem sorrindo e de camisa azul" width="300px">
+            <div class="about-me">
+                <h4>Um pouco sobre mim</h4>
+                <p>Nascido e criado em Manaus, atualmente moro em Recife/PE <br> 
+                    Sempre fui fascinado e ao mesmo tempo curioso em como o mundo da tecnologia impacta positivamente 
+                    a nossa vida.<br>
+                    Estou estudando desenvolvimento web na trybe, onde estou além das habilidades técnicas
+                    estou crescendo enquanto pessoa</p>
+            </div>
+        </div>
+    </section> 
+    <section>
+        <div class="information-title">
+            <h4>Skils</h4>
+            <h4>Blogs que acompanho</h4>
+        </div>
+        <div class="skils">
+                <ol>
+                    <li>Foco</li>
+                    <li>Empatia</li>
+                    <li>Organização</li>
+                    <li>Trabalho em grupo</li>
+                    <li>Resiliência</li>
+                </ol>
+            <ul>
+                <li><a class="lista" href="https://blog.betrybe.com/" target="_blank">Trybe</a></li>
+                <li><a class="lista" href="https://www.codigofonte.com.br/tag/blog" target="_blank">Código Fonte TV</a></li>
+                <li><a class="lista" href="https://diolinux.com.br/" target="_blank">Dio Linux</a></li>
+                <li><a class="lista" href="https://www.mobills.com.br/blog/" target="_blank">Mobills</a></li>
+            </ul>
+        </div>
+    </section>
     <h4 id="contato">Contato</h4>
     <a class="lista" href="https://www.linkedin.com/in/tiagoemanuel/" target="_blank">Linkedin</a>
-
 </body>
 </html>
