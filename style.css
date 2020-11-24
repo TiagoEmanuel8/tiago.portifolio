@@ -1,19 +1,36 @@
 body {
-    background-color: 
-    #343a40;
+    background-color: #343a40;
     color: azure;
 }
 
 .about-me {
+    align-items: center;
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
-    align-items: center;
+   
 }
 
 .about-me p {
-    text-align: center;
+    text-align: left;
     width: 70%
+}
+
+.contact {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact img{
+    width: 50px;
+    margin-left: 30px;
+}
+
+.contact-title {
+    margin-top: 5%;
+    text-align: center;
 }
 
 .content {
@@ -23,38 +40,40 @@ body {
     width: 80%;
 }
 
-/* #descricao {
-    font-family: serif;
-} */
+.footer {
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+}
 
 .general-information {
     text-align: center;
     margin-bottom: 5%;
 }
 
-.imagem{
+.image{
     border-radius: 50%;
 }
 
 .information-title{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+    width: 70%;
 }
 
 .lista {
     color: azure;
 }
 
-#nome {
-    font-family: Georgia, serif;
-}
-
 .skils {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin:auto;
+    width: 80%;
 }
-
-#habilidades {
-    display: flex; 
-    justify-content: space-evenly;
+.skils li {
+    text-align: left;
+    list-style-type: none;
 }
